@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>Gothons Of Planet Percal #25</title>
+</head>
+<body>
+
+{% if greeting %}
+I just wanted to say
+<em style="color: green; font-size: ">{{ greeting }}</em>
+{% else %}
+<em>Hello</em>. World!
+{% endif %}
+<form action="/greet">
+    <button type="submit">Go back</button>
+</form>
+</body>
+</html>
